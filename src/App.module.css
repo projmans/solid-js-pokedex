@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.listButton {
+  margin: 5px;
+  padding: 10px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.changeButton {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(7, 217, 224);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.link {
+  color: #b318f0;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 0px;
+}
+.content {
+  padding: 10px;
+}
+
+.detailContainer {
+  border: solid 4px black;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.imageContainer {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
